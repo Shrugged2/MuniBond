@@ -1,4 +1,4 @@
-# MiniBond Issuance with PyTeal and Python SDK
+# MuniBond Issuance with PyTeal and Python SDK
 ---
 To install all required packages: `pip install -r requirements`
 A demo script is attached at the bottom of main_publisher.py, to run the demo:
