@@ -46,6 +46,8 @@ def EscrowAccount(mgr_add, interest_id, par_id, accepted_payment, closure, par, 
     )
 
     # arg_id = 3
+    # remaining funds in the escrow account should always be able to cover 2 interest payments. 
+    # ADD in functionality to ensure there is a required minimum in the escrow account
     claim = And(
         Txn.receiver() == Addr(mgr_add),
         Txn.type_enum() == TxnType.AssetTransfer,
