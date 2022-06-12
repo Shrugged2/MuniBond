@@ -284,9 +284,9 @@ def main_pub(passphrase, proj_name, vol, url, par, coupon, payment_id,
 # FOR DEMONSTRATION PURPOSE ONLY
 #--------------------------------------------------------------------
 # ADDRESSES(FOR DEMO ONLY)
-pub_add = "YOUR PUBLISHER ADDRESS"
+pub_add = "HGGN2GFSJPEZZCIBB4OLFKZHQCA4RJWVMQMNCOZ32F4CAKCWNS5ZDW34VA" #"YOUR PUBLISHER ADDRESS" # HGGN2GFSJPEZZCIBB4OLFKZHQCA4RJWVMQMNCOZ32F4CAKCWNS5ZDW34VA
 pub_pass = "YOUR PUBLISHER PASSPHRASE"
-buyer_add = "YOUR BUYER ADDRESS"
+buyer_add = "HINIVPYMLZCKXISE6LZEDW6QBHQDO7S6ZS3Q2ZALRE72TW2JPXNBC46NXY" #"YOUR BUYER ADDRESS" # HINIVPYMLZCKXISE6LZEDW6QBHQDO7S6ZS3Q2ZALRE72TW2JPXNBC46NXY
 buyer_pass = "YOUR BUYER PASSPHRASE"
 #--------------------------------------------------------------------
 # SETTING PARAMETERS
@@ -318,7 +318,8 @@ print("--------------------------------------------")
 # SETTING UP TOKENS, ESCROW ACCOUNT
 interest_id, par_id, escrow_result, escrow_id= main_pub(passphrase=pub_pass, proj_name=proj_name,
                                                         vol=vol, par=par, coupon=coupon, payment_id=payment_id, closure=closure,
-                                                        start_round=first_coupon_payment, period=period, total_payments=total_payments, span=span, hold_up=holdup,client=client)
+                                                        start_round=first_coupon_payment, period=period, total_payments=total_payments, 
+                                                        span=span, hold_up=holdup,client=client)
 #--------------------------------------------------------------------
 # BUYER PURCHASING
 params = client.suggested_params()
