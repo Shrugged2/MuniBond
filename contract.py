@@ -1,5 +1,7 @@
 from pyteal import *
+
 """Escrow Account for Interest Payment and Par Value Payment"""
+# Escrow Account allows for claiming of interest payment. 
 
 def EscrowAccount(mgr_add, interest_id, par_id, accepted_payment, closure, par, coupon,
                   holdup_period, begin_round, end_round, total_payment,
