@@ -290,14 +290,14 @@ buyer_add = "YOUR BUYER ADDRESS"
 buyer_pass = "YOUR BUYER PASSPHRASE"
 #--------------------------------------------------------------------
 # SETTING PARAMETERS
-closure =  20  # + CURRENT BLOCK NUMBER
+closure =  10  # + CURRENT BLOCK NUMBER
 first_coupon_payment = closure + 1 # the first block from which a bondholder is allowed to claim interest
 proj_name = "NAME" # the name used for token issuance
 payment_id = "YOUR PAYMENT TOKEN"
 par = 10 # the par value of bond as measured in units of payment_id
 coupon = 1 # the coupon value of bond as measured in units of payment_id
 vol = 1000 # total number of bond available
-total_payments = 10 # how many interest payments in total
+total_payments = 4 # how many interest payments in total
 amt = 2 # number of bonds to be purchased by buyer
 holdup = 120000000 # the round after which bond issuer can claim funds out of the escrow account
 period = 10 # how many blocks between two interest payments
