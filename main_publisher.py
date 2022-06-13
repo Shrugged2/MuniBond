@@ -284,15 +284,15 @@ def main_pub(passphrase, proj_name, vol, url, par, coupon, payment_id,
 # FOR DEMONSTRATION PURPOSE ONLY
 #--------------------------------------------------------------------
 # ADDRESSES(FOR DEMO ONLY)
-pub_add = "HGGN2GFSJPEZZCIBB4OLFKZHQCA4RJWVMQMNCOZ32F4CAKCWNS5ZDW34VA" #"YOUR PUBLISHER ADDRESS" # HGGN2GFSJPEZZCIBB4OLFKZHQCA4RJWVMQMNCOZ32F4CAKCWNS5ZDW34VA
-pub_pass = "YOUR PUBLISHER PASSPHRASE"
-buyer_add = "HINIVPYMLZCKXISE6LZEDW6QBHQDO7S6ZS3Q2ZALRE72TW2JPXNBC46NXY" #"YOUR BUYER ADDRESS" # HINIVPYMLZCKXISE6LZEDW6QBHQDO7S6ZS3Q2ZALRE72TW2JPXNBC46NXY
-buyer_pass = "YOUR BUYER PASSPHRASE"
+pub_add = "BY5QGW6WQMGZUMFYU6HM7QEAPA56VECK6SLDR67P53MTKSGGGWLPHGEAI4" #"YOUR PUBLISHER ADDRESS"
+pub_pass = "attract ghost task accident thought flat melody winter scrap vague glow ugly spin near rib harsh flag wasp fortune uncover roof impulse protect above agent" # "YOUR PUBLISHER PASSPHRASE"
+buyer_add = "UZGAOYBEZVNZ6W3UANG2ZXDPZKKRNTTQVHQAW4YI34YOQSKH7FZNH5JGOA" #"YOUR BUYER ADDRESS" 
+buyer_pass = "glory abstract crowd huge glove poem radar trap try consider ginger inherit muffin lunar winner bean over gentle verify poet flower hammer clinic ability chimney" # "YOUR BUYER PASSPHRASE"
 #--------------------------------------------------------------------
 # SETTING PARAMETERS
-closure =  10  # + CURRENT BLOCK NUMBER
+closure =  10 + 21,580,167 # + CURRENT BLOCK NUMBER
 first_coupon_payment = closure + 1 # the first block from which a bondholder is allowed to claim interest
-proj_name = "NAME" # the name used for token issuance
+proj_name = "DEMO2" # the name used for token issuance
 payment_id = "YOUR PAYMENT TOKEN"
 par = 10 # the par value of bond as measured in units of payment_id
 coupon = 1 # the coupon value of bond as measured in units of payment_id
