@@ -284,6 +284,7 @@ def main_pub(passphrase, proj_name, vol, url, par, coupon, payment_id,
 # FOR DEMONSTRATION PURPOSE ONLY
 #--------------------------------------------------------------------
 # ADDRESSES(FOR DEMO ONLY)
+# Testnet accounts dont get crazy
 pub_add = "BY5QGW6WQMGZUMFYU6HM7QEAPA56VECK6SLDR67P53MTKSGGGWLPHGEAI4" #"YOUR PUBLISHER ADDRESS"
 pub_pass = "attract ghost task accident thought flat melody winter scrap vague glow ugly spin near rib harsh flag wasp fortune uncover roof impulse protect above agent" # "YOUR PUBLISHER PASSPHRASE"
 buyer_add = "UZGAOYBEZVNZ6W3UANG2ZXDPZKKRNTTQVHQAW4YI34YOQSKH7FZNH5JGOA" #"YOUR BUYER ADDRESS" 
