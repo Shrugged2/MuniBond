@@ -1,0 +1,15 @@
+.root {
+  @apply relative flex flex-col h-full overflow-hidden text-center rounded-md bg-base-bgCard shadow-large;
+}
+
+.imageWrapper {
+  @apply relative overflow-hidden bg-black hover:border-action-accent focus:border-action-accent;
+}
+
+.content {
+  @apply p-4;
+}
+
+.title {
+  @apply px-4 text-lg font-bold;
+}

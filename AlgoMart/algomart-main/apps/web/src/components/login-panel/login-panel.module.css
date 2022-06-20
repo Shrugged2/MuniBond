@@ -1,0 +1,32 @@
+.root {
+  @apply relative mx-auto;
+  /* Tablet + */
+  @apply md:overflow-hidden;
+}
+
+.buttonContainer {
+  @apply flex flex-col px-8 py-12 mx-auto space-y-8;
+  /* Mobile + */
+  @apply sm:p-16;
+  @apply md:max-w-520;
+}
+
+.button img {
+  @apply w-5 h-5;
+}
+
+.buttonImageText {
+  @apply ml-4;
+}
+
+.featuredWrapper {
+  @apply flex flex-col bg-black;
+}
+
+.featuredBottom {
+  @apply relative py-12 mx-auto;
+}
+
+.featuredBottomText {
+  @apply mt-8 text-lg text-center text-white;
+}

@@ -1,0 +1,93 @@
+.root {
+  @apply relative flex flex-col col-span-1;
+}
+
+.rootCard {
+  @apply h-full pb-4 overflow-hidden rounded-md shadow-lg bg-base-bgCard;
+}
+
+.rootCard > div {
+  @apply rounded-none shadow-none;
+}
+
+/* Item image */
+.imageWrapper {
+  @apply relative overflow-hidden bg-black rounded-md shadow-lg hover:border-action-accent focus:border-action-accent;
+}
+
+.questionMarkWrapper {
+  @apply relative flex w-full;
+  background: linear-gradient(135deg, #6ba2ce 0%, #3f80b5 100%);
+  padding-bottom: 100%;
+}
+
+.questionMark {
+  @apply absolute font-medium text-center text-white left-1/2 top-1/2;
+  transform: translate(-50%, -50%);
+}
+
+.questionMarkSmall {
+  @apply text-2xl;
+}
+
+.questionMarkMedium {
+  @apply text-4xl;
+}
+
+.questionMarkLarge {
+  @apply text-7xl;
+}
+
+.badge {
+  @apply absolute px-2 py-1 text-xs font-bold text-center text-black rounded-full text-opacity-70 bg-action-accent bottom-2 left-2;
+}
+
+/* Item content */
+.title {
+  @apply px-4 mt-2 text-sm text-center text-base-textPrimary;
+}
+
+.title.titleFaded {
+  @apply text-base-gray-light;
+}
+
+.rootCard .title {
+  @apply mt-4;
+}
+
+.metaWrapper {
+  @apply flex items-center justify-between px-4 pt-2;
+}
+
+.metaWrapper.metaCenter {
+  @apply justify-center;
+}
+
+.setNumber {
+  @apply text-2xl font-black text-opacity-20 text-base-textPrimary;
+}
+
+.rarity {
+  @apply px-4 py-1 text-xs font-bold text-center text-white uppercase rounded-full bg-base-gray-medium;
+}
+
+/* Showcase actions */
+.removeButton {
+  @apply absolute -top-2 -right-2;
+}
+
+.removeIcon {
+  @apply w-6 h-6 text-black bg-white rounded-full;
+}
+
+.overlay {
+  @apply absolute inset-0 flex items-center justify-center text-white bg-black bg-opacity-50;
+}
+
+.addIcon {
+  @apply w-6 h-6 text-black bg-white rounded-full;
+}
+
+.checkIcon {
+  @apply w-6 h-6 text-black rounded-full bg-action-accent;
+}
