@@ -13,9 +13,14 @@ A demo script is attached at the bottom of main_publisher.py, to run the demo:
 This is setting up a large initial transfer. 
 
 Then a series of timed drops that are claimable from an escrow account. Token is created for both interest payments and par value (face value) of the bond
-Main Publisher has a suite of settings that are in place to run a demo. Need to be removed for actual product
+Main Publisher has a suite of settings that are in place to run a demo. Need to be removed for actual product.
 
 
-To DO:
+
+## To DO:
+
 Price Oracle
-Pith?
+Pith? Need to dig into Algorand compatible stuff
+
+Front End. 
+Marketplace.
