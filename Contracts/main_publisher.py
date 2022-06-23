@@ -291,7 +291,7 @@ buyer_add = "UZGAOYBEZVNZ6W3UANG2ZXDPZKKRNTTQVHQAW4YI34YOQSKH7FZNH5JGOA" #"YOUR 
 buyer_pass = "glory abstract crowd huge glove poem radar trap try consider ginger inherit muffin lunar winner bean over gentle verify poet flower hammer clinic ability chimney" # "YOUR BUYER PASSPHRASE"
 #--------------------------------------------------------------------
 # SETTING PARAMETERS
-closure =  10 + 21,580,167 # + CURRENT BLOCK NUMBER
+closure =  10 + 21,580,167 # + CURRENT BLOCK NUMBER 
 first_coupon_payment = closure + 1 # the first block from which a bondholder is allowed to claim interest
 proj_name = "DEMO2" # the name used for token issuance
 payment_id = "YOUR PAYMENT TOKEN"
