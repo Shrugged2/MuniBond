@@ -7,6 +7,7 @@ def EscrowAccount(mgr_add, interest_id, par_id, accepted_payment, closure, par, 
                   holdup_period, begin_round, end_round, total_payment,
                   period, span):
     max_fee = Int(1000)
+    #is this it? point to ne creation of account?
     lease = Bytes("base64", "NPWoaHaDbyyovXHAHoc5AnKskQwfmTm4YK+psfQutvM=")
 
     # for EscrowAccount to receive payments in opt-in interest token
