@@ -16,7 +16,7 @@ for the storefront.
 
 Create a new GCP project by following the
 [official instructions](https://cloud.google.com/resource-manager/docs/creating-managing-projects).
-
+ 
 Upon creation, make a note of the **project id** (not the project number).
 We will need this later when configuring Github Secrets.
 
