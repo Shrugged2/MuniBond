@@ -305,12 +305,13 @@ period = 10 # how many blocks between two interest payments
 span = 500 # the length of interest payment period (exaggerated for demo purpose)
 client = algod_client()
 
-# how do I add in here, looking for something that references current ALGO/USD?
 # looking essentially for a price oracle. how do I do that here?
 
 # Further notes.  
 #     Would like to add in native time. IE "every 6 months"
-# how to reference a specific time? Again, reference something off chain? is the best solution here to set up own oracle?
+# how to reference a specific time? 
+# Again, reference something off chain? 
+# is the best solution here to set up own oracle? 
 #--------------------------------------------------------------------
 # ENSURING FIRST INTEREST PAYMENT IS A MULTIPLE OF PERIOD
 print("Checking configurations......")
