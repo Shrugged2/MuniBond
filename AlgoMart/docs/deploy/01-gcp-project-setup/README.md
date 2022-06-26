@@ -26,7 +26,7 @@ We will need this later when configuring Github Secrets.
 
 If there is not already a billing acount set up for your organization,
 [create one now](https://cloud.google.com/billing/docs/how-to/manage-billing-account#create_a_new_billing_account).
-
+Done-
 Once a billing account is available, select "Billing" in the sidebar menu.
 
 > ![select billing](./images/billing/01-select-billing.png)
