@@ -24,3 +24,5 @@ Pith? Need to dig into Algorand compatible stuff
 
 Front End. 
 Marketplace.
+
+Do I want to try to convert this to rust? Sawpping over
