@@ -307,6 +307,9 @@ client = algod_client()
 
 # looking essentially for a price oracle. how do I do that here?
 
+# Bust out to another file?
+
+
 # Further notes.  
 #     Would like to add in native time. IE "every 6 months"
 # how to reference a specific time? 
