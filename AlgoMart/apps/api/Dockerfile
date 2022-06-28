@@ -7,5 +7,5 @@ WORKDIR /api
 RUN npm install
 RUN npm run build
 
-CMD echo "Hello, world"
+CMD echo "Hello, World"
 
