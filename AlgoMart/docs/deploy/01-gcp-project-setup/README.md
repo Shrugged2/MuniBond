@@ -68,6 +68,7 @@ any secret variable we supply it.
 Therefore, we need to be doubly certain that the state file can
 only be accessed by those who have permission via IAM, etc.
 
+
 You can configure the "Access control" or "Choose how to protect object data"
 however you'd like,
 and once done select "Create".

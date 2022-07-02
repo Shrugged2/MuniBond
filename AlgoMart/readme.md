@@ -19,7 +19,7 @@ The main purpose of this platform is twofold; to make it easy for developers to 
 
 In order to accomplish this, storefront administrators should be able to easily to create, configure, and mint NFTs. Likewise, end-users should be able to redeem, purchase, or bid on them without concern of what's happening behind the scenes on the blockchain.
 
-### Backend Overview
+### Backend Overview 
 
 To accomplish these challenges, **templates** are used within the CMS.
 
