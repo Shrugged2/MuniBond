@@ -2,9 +2,8 @@
 
 # AlgoMart
 
-[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)][code of conduct]
 
-This project is developed to be a foundational starter for creating your own NFT storefront on the Algorand blockchain. It is a monorepo that includes:
+Starter for NFT storefront on the Algorand blockchain. It is a monorepo that includes:
 
 - A [headless CMS](./apps/cms) (Directus)
 - A [back-end API](./apps/api) (Fastify)
