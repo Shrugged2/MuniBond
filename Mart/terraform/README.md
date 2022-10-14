@@ -1,6 +1,6 @@
 # Terraform
 
-These templates serve as a reasonable set of defaults
+These serve as a reasonable set of defaults
 for spinning up a simple storefront setup,
 consisting of:
 
