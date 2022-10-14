@@ -21,7 +21,8 @@ Main Publisher has a suite of settings that are in place to run a demo. Need to 
 Price Oracle
 Pith? Need to dig into Algorand compatible stuff
 
-Front End. 
-Marketplace.
+Front End. Need to set up variables on contracts
 
-Do I want to try to convert this to rust? Sawpping over
+Marketplace integration and setup. 
+
+Do I want to try to convert this to rust? Sawpping over to NEAR seems appealing as their DeFi volume is super high. ETH and AVAX seem to have respectibility that is appealing. 
