@@ -44,7 +44,7 @@ and then click "Set account".
 ## 3. Create a bucket
 
 Now that we have a billing account assigned to the project,
-we can create additional resources,
+we can create additional resources, 
 including a new Cloud Storage bucket in which Terraform can store its state file.
 
 In the sidebar menu, select "Cloud Storage".
