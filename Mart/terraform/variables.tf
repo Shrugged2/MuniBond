@@ -234,7 +234,7 @@ variable "smtp_port" {
 }
 
 ##
-## Scribe service
+## Scribe service 
 ##
 ## Scribe uses most of the API variables
 ##
@@ -248,7 +248,7 @@ variable "scribe_revision_name" {
 }
 
 ##
-## CMS service
+## CMS service 
 ##
 
 # Directus will use these to create an "admin" user automatically
