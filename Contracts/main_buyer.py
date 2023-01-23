@@ -41,7 +41,7 @@ def purchase_bond(programstr, escrow_id, passphrase, amt, payment_id, par, inter
     sp.last = last_block
     sp.flat_fee = True
     sp.fee = 1000
-    print("--------------------------------------------")
+    print("-----------------------------------------")
     print("Opt-in the buyer account for interest and par token......")
     txn0_1 = AssetTransferTxn(add, sp, add, 0, interest_id)
     txn0_2 = AssetTransferTxn(add, sp, add, 0, par_id)
@@ -50,8 +50,8 @@ def purchase_bond(programstr, escrow_id, passphrase, amt, payment_id, par, inter
     txn0_1_id = algod_client.send_transaction(sign0_1)
     wait_for_confirmation(algod_client, txn0_1_id, 5)
     print("Successfully opt-in")
-    print("--------------------------------------------")
-    print("--------------------------------------------")
+    print("-----------------------------------------")
+    print("-----------------------------------------")
     print("Bundling purchase transactions and submitting......")
     txn0_2_id = algod_client.send_transaction(sign0_2)
     wait_for_confirmation(algod_client, txn0_2_id, 5)
